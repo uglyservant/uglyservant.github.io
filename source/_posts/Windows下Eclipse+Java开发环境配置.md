@@ -3,25 +3,26 @@ title: Windows下Java环境变量配置
 date: 2018-03-27 21:15:02
 tags:
 - Java
+- Eclipse
 categories:
 - 教程
 ---
 
-### 首先
+## 首先
 
 下载 ***[Eclipse](https://www.eclipse.org/downloads/eclipse-packages/)*** 和 ***[Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html)***
 
-#### 安装 *Eclipse*
+### 安装 *Eclipse*
 
 解压下载到本地的 ***Eclipse*** 压缩包将压缩包放在你喜欢的路径下面，运行 ***eclipse.exe*** 文件
 
-#### 安装 *Java*
+### 安装 *Java*
 
 运行下载到本地的 ***Java*** 安装包，按照安装向导选择喜欢的路径进行安装
 
-### 配置 *Java* 环境变量
+## 配置 *Java* 环境变量
 
-#### *JAVA_HOME*
+### *JAVA_HOME*
 
 ***JAVA_HOME*** 指定的是 ***Java JDK*** 的安装目录路径
 
@@ -37,7 +38,7 @@ categories:
 
 点击 **确定** 完成创建
 
-#### *Path*
+### *Path*
 
 ***Path*** 使得系统可以在任何路径下识别 ***Java*** 命令
 
@@ -47,7 +48,7 @@ categories:
 
 添加 ***%JAVA_HOME%\bin*** 和 ***%JAVA_HOME%\jre\bin*** 两条环境变量，点击确定完成添加
 
-#### *CLASS_PATH*
+### *CLASS_PATH*
 
  ***CLASS_PATH*** 为 ***Java*** 加载类 ***(class or lib)*** 的路径，只有类在 ***CLASS_PATH*** 中，***java*** 命令才能识别这些类
 
@@ -63,7 +64,7 @@ categories:
 
 点击 **确定** 完成创建
 
-#### 验证配置成功与否
+### 验证配置成功与否
 
 在 ***CMD*** 中键入 ***java*** 有如下显示
 
@@ -75,7 +76,7 @@ categories:
 
 则配置成功，否则请检查哪里出错或者重新再配置一遍
 
-### 关联 *Java* 源码
+## 关联 *Java* 源码
 
 打开 ***Eclipse*** ，在 ***Windows > Preference > Java*** 下点击 ***Install JREs***
 

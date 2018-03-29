@@ -1,24 +1,24 @@
 ---
 title: Windows下Clion+Cygwin开发环境配置
 date: 2018-03-27 16:49:40
+tags:
+- Cygwin
+- Clion
 categories:
 - 教程
-tags:
-- Clion
-- Cygwin
 ---
 
-### 首先
+## 首先
 
 下载 ***[Clion](https://www.jetbrains.com/clion)*** 和 ***[Cygwin](https://cygwin.com/install.html)*** 选择适合自己系统的版本 **(这里是Windows10 x64版本)**
 
-### 安装 *Clion*
+## 安装 *Clion*
 
 打开 ***.exe*** 文件，如图。更据安装向导选择自己喜欢的目录进行安装 **(这里是2017.2.4版本)**
 
 ![Clion_Instal](Windows下Clion+Cygwin开发环境配置\Clion_Install.PNG)
 
-### 安装 *Cygwin*
+## 安装 *Cygwin*
 
 打开 ***.exe*** 文件，然后点击 **下一步**
 
@@ -56,7 +56,7 @@ tags:
 
 ![Cygwin_Install](Windows下Clion+Cygwin开发环境配置\Cygwin_Install7.PNG)
 
-### 配置 *Clion Toolchains*
+## 配置 *Clion Toolchains*
 
 首次安装 ***Clion*** 会跳转到 ***Toolchains*** 的设置页面，如果没有跳转则从 ***File > Settings > Build, Execution, Deployment*** 下找到 ***Toolchains***
 
