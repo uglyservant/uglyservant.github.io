@@ -11,7 +11,7 @@ categories:
 
 ## 一
 
-购买一个***Vultr***的国外服务器
+购买一个***[Vultr](https://www.vultr.com/)***的国外服务器
 
 ### 服务器位置
 
