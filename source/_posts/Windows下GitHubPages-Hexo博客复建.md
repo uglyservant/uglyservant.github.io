@@ -44,8 +44,18 @@ git clone git@github.com:uglyservant/uglyservant.github.io.git
 重新启动 **Git Bash**，进入本地仓库目录，输入
 
 ```shell
+npm install hexo-cli -g
+```
+
+来安装 **Hexo**
+
+输入
+
+```shell
 npm install
 ```
+
+来完成相应的依赖安装
 
 ## 完成
 
