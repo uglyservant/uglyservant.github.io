@@ -8,11 +8,11 @@ subtitle: Blog
 description: Coding is changing our lives!
 author: uglyservant
 language: zh-Hans
-timezone:
+timezone: GMT+8
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://uglyservant.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
