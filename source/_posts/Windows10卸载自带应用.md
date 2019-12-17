@@ -7,17 +7,20 @@ categories:
 - 教程
 ---
 
+<center>烦人的巨硬操作系统自带的应用</center>
+
+<!-- more -->
+
 ## 进入终端
 
 以 **管理员** 的身份打开 **Windows10** 的 **PowerShell** 或者 **CMD** 命令行
-
-![PowerShel](Windows10卸载自带应用\PowerShell.PNG)
+![PowerShell](PowerShell.PNG)
 
 ## 删除应用
 
 首先键入 **Get-AppxPackage | Select Name, PackageFullName** 得到所有内置的应用
 
-![Get_App](Windows10卸载自带应用\Get_Apps.PNG)
+![Get_App](Get_Apps.PNG)
 
 之后键入 **Get-AppxPackage \*AppName\* | Remove-AppxPackage** 来删除你不需要的应用
 

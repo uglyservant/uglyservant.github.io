@@ -8,6 +8,10 @@ categories:
 - 教程
 ---
 
+<center>时不时重装电脑的时候会用到</center>
+
+<!-- more -->
+
 ## 安装并配置 Git
 
 **[Git](https://git-scm.com/)** 下载地址

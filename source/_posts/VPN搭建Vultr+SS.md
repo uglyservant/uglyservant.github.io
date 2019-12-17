@@ -9,6 +9,10 @@ categories:
 - 教程
 ---
 
+<center>使用Vultr和SS搭建自己的VPN </center>
+
+<!-- more -->
+
 ## 一
 
 购买一个 **[Vultr](https://www.vultr.com/)** 的国外服务器
