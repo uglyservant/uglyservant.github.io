@@ -1,7 +1,7 @@
 ---
 title: about
 date: 2018-03-20 19:30:23
-type: "about"
+type: about
 comments: false
 ---
 <br/>
