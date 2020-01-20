@@ -8,7 +8,6 @@ categories:
 ---
 
 <center>MySQL8.0.16 ZIP 包安装和配置</center>
-
 <!-- more -->
 
 ## 一、安装MySQL
@@ -70,4 +69,4 @@ default-character-set=utf8
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '新密码';
 ```
 
-下次登陆使用新密码即可。
+下次登陆时使用新密码即可。

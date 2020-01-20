@@ -1,13 +1,14 @@
 ---
-title: Nginx location 匹配规则
-date: 2020-01-16 10:45:36
+title: Nginx Location 配置
+date: 2020-01-20 11:03:36
 tags:
 - Nginx
-categories
+categories:
 - 教程
 ---
 
 <center>一些nginx中location的匹配规则</center>
+
 <!-- more -->
 
 ### 「=」 修饰符：要求路径完全匹配
@@ -21,7 +22,7 @@ server {
 }
 ```
 
-### 「^~」修饰符：前缀匹配
+### 「^~」修饰符：前缀匹配路径
 
 ```shell
 server {
@@ -143,6 +144,8 @@ server {
         return 701;
     }
 }
+
+
 ```
 
 `curl -I website.com:8080/document` 依然返回 `HTTP/1.1 701`
@@ -164,6 +167,8 @@ server {
         return 702;
     }
 }
+
+
 ```
 
 `curl -I website.com:8080/document` 返回 `HTTP/1.1 701`
@@ -183,6 +188,8 @@ server {
         return 701;
     }
 }
+
+
 ```
 
 `curl -I website.com:8080/document` 返回 `HTTP/1.1 702`
