@@ -7,7 +7,7 @@ categories:
 - 教程
 ---
 
-<center>一些nginx中location的匹配规则</center>
+<div style="text-align: center;">一些nginx中location的匹配规则</div>
 <!-- more -->
 
 ## 「=」 修饰符：要求路径完全匹配

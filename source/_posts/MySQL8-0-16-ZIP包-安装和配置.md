@@ -7,7 +7,7 @@ categories:
 - 教程
 ---
 
-<center>MySQL8.0.16 ZIP 包安装和配置</center>
+<div style="text-align: center;">MySQL8.0.16 ZIP 包安装和配置</div>
 <!-- more -->
 
 ## 一、安装MySQL
@@ -54,14 +54,22 @@ default-character-set=utf8
 
 ## 二、初始化MySQL
 
-打开`CMD`，进入`C:\Program Files\MySQL8.0.16\bin\`目录下，键入如下命令(二选一)
+先将`C:\Program Files\MySQL8.0.16\bin\`添加到系统环境变量中。
+
+打开`CMD`，键入如下命令(二选一)
 
 - `mysqld --initialize --console`(使用`root`用户和`随机`密码初始化数据库，并打印该密码至控制台)
 - `mysqld --initialize-insecure`(使用`root`用户和`空`密码初始化数据库)
 
-## 三、更改MySQL登陆密码
+## 三、安装MySQL服务
 
-先将`C:\Program Files\MySQL8.0.16\bin\`添加到系统环境变量中。
+打开`CMD`，依次键入如下命令：
+
+- `mysqld install`(安装MySQL服务)
+- `net start mysql`(启动MySQL服务)
+
+## 四、更改MySQL登陆密码
+
 打开`CMD`，输入`mysql -u root -p`，对话框提示输入密码，有则填入密码，无则直接回车。
 进入`mysql`对话框，输入
 
