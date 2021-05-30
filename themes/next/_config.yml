@@ -194,7 +194,7 @@ social:
   #RSS: /atom.xml || rss
 
 social_icons:
-  enable: true
+  enable: false
   icons_only: false
   transition: false
 
