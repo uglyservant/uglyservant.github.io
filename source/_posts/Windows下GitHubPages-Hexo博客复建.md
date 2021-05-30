@@ -8,8 +8,7 @@ categories:
 - 教程
 ---
 
-<center>时不时重装电脑的时候会用到</center>
-
+<div style="text-align: center;">时不时重装电脑的时候会用到</div>
 <!-- more -->
 
 ## 安装并配置 Git

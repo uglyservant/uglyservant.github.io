@@ -7,8 +7,7 @@ categories:
 - 教程
 ---
 
-<center>烦人的巨硬操作系统自带的应用</center>
-
+<div style="text-align: center;">烦人的巨硬操作系统自带的应用</div>
 <!-- more -->
 
 ## 进入终端

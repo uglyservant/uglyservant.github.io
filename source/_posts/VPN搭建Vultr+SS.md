@@ -9,8 +9,7 @@ categories:
 - 教程
 ---
 
-<center>使用Vultr和SS搭建自己的VPN </center>
-
+<div style="text-align: center;">使用Vultr和SS搭建自己的VPN </div>
 <!-- more -->
 
 ## 一

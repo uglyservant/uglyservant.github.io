@@ -9,8 +9,7 @@ categories:
 - 教程
 ---
 
-<center>有时候Java开发用用JPA还不错</center>
-
+<div style="text-align: center;">有时候Java开发用用JPA还不错</div>
 <!-- more -->
 
 ## Spring Boot项目下Spring Data JPA的常用配置
