@@ -104,5 +104,5 @@ theme: next
 deploy:
   type: git
 #  repo: ssh://git@github.com/uglyservant/uglyservant.github.io.git
-  repo: https://github.com/uglyservant/uglyservant.github.io.git
+  repo: https://<your_token>@github.com/uglyservant/uglyservant.github.io.git
   branch: master
